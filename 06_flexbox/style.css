@@ -2,8 +2,13 @@
     background-color: red;
     width: 100px;
     height: 100px;
+    margin: 5px;
 }
 
 .container{
     background-color: khaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
