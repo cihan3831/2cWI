@@ -1,0 +1,51 @@
+.container{
+    background-color: yellow;
+    display: flex;
+    height: 150px;
+    align-content: end;
+    bottom: 20px;
+    right: 20px;
+}
+
+body {
+    margin: 0;
+  }
+   
+  .blue {
+    background-color: dodgerblue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 300px;
+    width: 400px;
+  }
+   
+.braun {
+    background-color:brown;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+  }
+   
+.pink {
+    background-color: pink;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+  }
+   
+.box{
+      background-color: greenyellow;
+      width: 30px;
+      height: 30px;
+      margin: 20px;
+  }
+   
+.Welcome {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
