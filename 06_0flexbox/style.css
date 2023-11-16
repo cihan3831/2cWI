@@ -1,51 +1,51 @@
-.container{
-    background-color: yellow;
+.container {
     display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100vw;
     height: 150px;
-    align-content: end;
-    bottom: 20px;
-    right: 20px;
+    background-color: yellow;
 }
 
-body {
-    margin: 0;
-  }
-   
-  .blue {
-    background-color: dodgerblue;
+.box {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    background-color: green;
+}
+
+.blue {
     position: relative;
-    top: 20px;
-    left: 20px;
     height: 300px;
     width: 400px;
-  }
-   
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.welcome {
+    padding: 20px;
+    color: darkblue;
+}
+
+.list {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
 .braun {
-    background-color:brown;
     position: absolute;
-    width: 100px;
+    background-color: brown;
+    bottom: 0;
+    right: 0;
     height: 100px;
-    bottom: 0px;
-    right: 0px;
-  }
-   
+    width: 140px;
+}
+
 .pink {
-    background-color: pink;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 50px;
     height: 50px;
-  }
-   
-.box{
-      background-color: greenyellow;
-      width: 30px;
-      height: 30px;
-      margin: 20px;
-  }
-   
-.Welcome {
-    padding-top: 20px;
-    padding-left: 20px;
-  }
+    width: 50px;
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}
