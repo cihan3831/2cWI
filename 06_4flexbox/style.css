@@ -1,0 +1,46 @@
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 150px;
+    background-color: aqua;
+}
+
+.container2{
+    display: flex;
+
+}
+
+.container3{
+    display: flex;
+}
+
+
+
+
+.box1 {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: 10px;
+}
+
+.box2 {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.box3 {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
