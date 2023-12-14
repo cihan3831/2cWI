@@ -1,4 +1,8 @@
 // Zähle von 7 bis 45 
+for (let count= 7; count < 45; count++){
+    console.log(count);
+}
+console.log("Fertig");
 
 // Zähle von 9 bis 99 
 
