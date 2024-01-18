@@ -32,6 +32,6 @@ if ((a<30) || (b<30)) {
 // Wenn die erste Zahl kleiner ist als 50 UND die zweite Zahl ungleich 50 ist 
 // dann gib aus "Erste Zahl klein, zweite kein 50iger" 
 
-if ((a<50) && (b|=50)) {
+if ((a<50) && (b!=50)) {
     console.log("Erste Zahl klein, zweite kein 50iger");
 }
