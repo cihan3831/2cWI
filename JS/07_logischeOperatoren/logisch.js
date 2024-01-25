@@ -35,3 +35,4 @@ if ((a<30) || (b<30)) {
 if ((a<50) && (b!=50)) {
     console.log("Erste Zahl klein, zweite kein 50iger");
 }
+
