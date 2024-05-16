@@ -1,4 +1,3 @@
-import { log } from "console";
 import { createInterface } from "readline";
 
 const readline = createInterface({
@@ -14,6 +13,7 @@ const readLineAsync = () => {
     });
 };
 
+
 let balance = 0;
 
 while (true) {
@@ -21,16 +21,22 @@ while (true) {
     let selection = await readLineAsync();
     if (selection == 1) {
         console.log("Wie viel möchten sie einzahlen?");
-        let amount = await readLineAsync();
         console.log("einzahlen");
+        let amount = await readLineAsync();
+        balance = balance + parseFloat(amount);
+        console.log(balance);
     }
 
     else if (selection == 2) {
+        console.log("Wie viel möchten sie abheben?");
         console.log("abheben");
+        let amount2 = await readLineAsync();
+        balance = balance - parseFloat(amount2);
+        console.log(balance);
     }
 
     else if (selection == 3) {
-        console.log("kontostand" + balance);
+        console.log("kontostand " + balance);
     }
 
     else if (selection == 4) {
