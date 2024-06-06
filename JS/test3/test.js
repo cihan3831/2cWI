@@ -21,7 +21,8 @@ const numbers = data1.split(",").map(Number);
 let sum = 0;
 let amount = 0;
 
-for (let number of numbers) {
+for (let i = 0; i < numbers.length; i++) {
+    let number = numbers[i];
     if (number < 0 && number % 2 === 0) {
         sum += number;
         amount++;
@@ -30,3 +31,18 @@ for (let number of numbers) {
 
 const average = sum / amount;
 console.log(average);
+
+
+//Zähle wie oft a oder e oder ö vorkommen
+// 4
+const data4 = "Das Leben ist schön";
+
+let count = 0;
+for (let index = 0; index < data4.length; index++) {
+    const text = data4[index];
+
+    if (text === "a" || text === "e" || text === "ö") {
+        count++;
+    }
+}
+console.log(count);
